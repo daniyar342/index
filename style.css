@@ -1,18 +1,18 @@
 .image-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust the gap between images as needed */
+    gap: 100px; /* Adjust the gap between images as needed */
 }
 
         /* Apply styles to each image */
-.image-container img {
+.image-container tr img {
     width: 200px; /* Set the default width */
-    height: 150px; /* Set the default height */
+    height: 400px; /* Set the default height */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
-img {
-            width: 200px;
-            height: 150px;
-            object-fit: cover; /* Maintain aspect ratio and cover the container */
-        }
+/*img {*/
+/*            width: 250px;*/
+/*            height: 250px;*/
+/*            object-fit: cover; !* Maintain aspect ratio and cover the container *!*/
+/*        }*/
