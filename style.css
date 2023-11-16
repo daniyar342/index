@@ -10,3 +10,9 @@
     height: 150px; /* Set the default height */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+
+img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
