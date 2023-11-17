@@ -1,62 +1,51 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
-	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: white;
+    background: white;
 }
 
 .container {
-	max-width: 390px;
+    max-width: 290px;
 }
 
 .inner {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 250px 250px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img {
-	width: 150px;
+    width: 150px;
 }
 
 .item {
-	text-align: center;
+    text-align: center;
+    margin-bottom: 10px; /* Add margin between items */
 }
 
+.button {
+	display: grid;
+}
 .btn {
-	display: inline-block;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(248, 168, 24);
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
 
-	transition: background .2s linear;
+    transition: background .2s linear;
 }
 
 .btn:hover {
-	background: lightgreen;
+    background: lightgreen;
 }
 
 .usercard {
-	text-align: center;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
